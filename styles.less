@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 10vh;
+    width: 100%;
+    padding: 2rem;
+    display: block;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+    position: fixed;
+    
+
+    h1, h2, p {
+        display: inline-block;
+    }
+    h2, p {
+        right: 18rem;
+        position: absolute;
+        top: 3rem;
+    }
+    p {
+        right: 3rem;
+        vertical-align: bottom;
+    }
+    form #logout {
+        position: absolute;
+        right: 4rem;
+        font-size: 18px;
+        height: 3vh;
+        width: 5rem;
+        cursor: pointer;
+        top: 3rem;
+    }
+
+}
+.warning {
+    background-color: orange;
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    border: 1px red solid;
+    margin: 1px auto;
+    width: 25%;
+    min-height: 5vh;
+    
+}
+main {
+    text-align: justify;
+    text-justify: inter-word;
+    min-height: 10vh;
+    padding: 7rem 4rem 0 4rem;
+    
+
+    h1 {
+        font-size: 70px;
+    }
+    p {
+        font-size: 25px;
+        margin: 0 0 4rem 0;
+    }
+    form {
+        //
+    
+        h2 {
+            font-size: 40px;
+        }
+        textarea {
+            width:100%;
+            resize: none;
+        }
+        input {
+            margin: 2rem 0 4rem 102rem;
+            height: 2.5rem;
+            width: 8rem; 
+            background-color: skyblue;
+            border-radius: .3rem;   
+        }
+    } 
+}
+
+
+footer {
+    min-height: 50vh;
+    padding: 4rem;
+    width: 80%;
+    margin: 0 auto 1rem auto;
+
+    h2 {
+        margin: 0 0 1rem 0;
+    }
+    p {
+       margin: .5rem 0 0 0;
+       font-size: 22px;
+    }
+    .reviews {
+        margin-bottom: 2rem;
+        min-height: 15vh;
+        padding: 1rem;
+        word-wrap: break-word;
+        .reply {
+            padding-left: 4rem;
+        }
+        h2 {
+            display: inline-block;
+        }
+        p {
+            text-align: justify;
+            text-justify: inter-word; 
+        }
+        textarea {
+            width: 70%;
+            resize: none;
+            margin: 2rem 0 0 25.6rem;
+        }
+        input {
+            margin: 1rem 0 0 77rem;
+            height: 2.5rem;
+            width: 8rem; 
+            background-color: lightgreen;
+            border-radius: .3rem;
+        }
+    }
+}
